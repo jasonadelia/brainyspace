@@ -1,0 +1,71 @@
+@font-face {
+	font-family: 'brainyspace';
+	src:url('fonts/brainyspace.eot');
+	src:url('fonts/brainyspace.eot?#iefix') format('embedded-opentype'),
+		url('fonts/brainyspace.woff') format('woff'),
+		url('fonts/brainyspace.ttf') format('truetype'),
+		url('fonts/brainyspace.svg#brainyspace') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'brainyspace';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="icon-"]:before {
+*/
+.icon-printer:before, .icon-mail:before, .icon-wifi:before, .icon-whiteboard:before, .icon-tiers:before, .icon-meetings:before, .icon-lounge:before, .icon-hipster:before, .icon-eventspace:before, .icon-community:before, .icon-coffee:before, .icon-chair:before {
+	font-family: 'brainyspace';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+.icon-printer:before {
+	content: "\2305";
+}
+.icon-mail:before {
+	content: "\2709";
+}
+.icon-wifi:before {
+	content: "\2314";
+}
+.icon-whiteboard:before {
+	content: "\25a4";
+}
+.icon-tiers:before {
+	content: "\25b3";
+}
+.icon-meetings:before {
+	content: "\2318";
+}
+.icon-lounge:before {
+	content: "\274f";
+}
+.icon-hipster:before {
+	content: "\263b";
+}
+.icon-eventspace:before {
+	content: "\2610";
+}
+.icon-community:before {
+	content: "\271c";
+}
+.icon-coffee:before {
+	content: "\2668";
+}
+.icon-chair:before {
+	content: "\230b";
+}
