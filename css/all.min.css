@@ -19,10 +19,10 @@ input{-webkit-border-radius:.25em;-moz-border-radius:.25em;-ms-border-radius:.25
 .form-txt:focus{border-color:#9CAC9B;-webkit-box-shadow:inset 0 0 2px #9CAC9B;-moz-box-shadow:inset 0 0 2px #9CAC9B;box-shadow:inset 0 0 2px #9CAC9B;}
 .form-btn{background:#519505;border:2px solid transparent;color:white;cursor:pointer;margin:0;text-align:center;width:30%;-webkit-appearance:none;-moz-appearance:none;appearance:none;-webkit-transition:all .15s linear;-moz-transition:all .15s linear;-o-transition:all .15s linear;transition:all .15s linear;}
 .form-btn:hover{background:#427A00;}.disclaimer{color:#8D8D8D;font-size:.8em;}.locale{background:#B3D8B2;}
-[data-icon].hipster{font-size:8em;width:100%;}nav{background:#1B1B19;width:100%;z-index:9000;}
-.nav-list{margin:0 auto;max-width:650px;padding:0;}nav li{text-align:center;float:left;width:33.33333%;margin:0;font-size:1.166666666666667em;font-weight:bold;}
-.lt-ie8 nav li{width:32.33333%;}nav a{display:block;margin:6px 0;}nav a:link,nav a:active,nav a:hover,nav a:visited{color:#E4F0E2;text-decoration:none;-webkit-transition:color .15s ease;-moz-transition:color .15s ease;transition:color .15s ease;}
-nav a:hover,nav .active a{color:#85BB4E;}.opt{display:none;}.fix{box-shadow:0 1px 10px #223F02;position:fixed;top:0;left:0;}
+[data-icon].hipster{font-size:8em;width:100%;}#navbar{background:#1B1B19;width:100%;z-index:9000;}
+.nav-list{margin:0 auto;max-width:650px;padding:0;}#navbar li{text-align:center;float:left;width:33.33333%;margin:0;font-size:1.166666666666667em;font-weight:bold;}
+.lt-ie8 #navbar li{width:32.33333%;}#navbar a{display:block;margin:6px 0;}#navbar a:link,#navbar a:active,#navbar a:hover,#navbar a:visited{color:#E4F0E2;text-decoration:none;-webkit-transition:color .15s ease;-moz-transition:color .15s ease;transition:color .15s ease;}
+#navbar a:hover,#navbar .active a{color:#85BB4E;}.opt{display:none;}.fix{box-shadow:0 1px 10px #223F02;position:fixed;top:0;left:0;}
 .footer-wrap{color:#DAF2BF;font-size:.6666666666666667em;}.footer-wrap p{margin:0;}
 .cf:before,.cf:after,#space li:before,#space li:after{content:" ";display:table;}
 .cf:after,#space li:after{clear:both;}.cf,#space li{*zoom:1;}@media print{*{background:transparent!important;color:#000!important;box-shadow:none!important;text-shadow:none!important;}
