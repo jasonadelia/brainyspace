@@ -1,0 +1,215 @@
+/* 
+html5doctor.com Reset Stylesheet v1.4.1 
+Author: Richard Clark - http://richclarkdesign.com
+*/
+/* apply a natural box layout model to all elements */
+/* from http://paulirish.com/2012/box-sizing-border-box-ftw/ */
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+meter,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  outline: 0;
+  font-size: 100%;
+  font-weight: normal;
+  vertical-align: baseline;
+  background: transparent;
+  -webkit-appearance: none;
+}
+body {
+  background-color:#FFFFFF;
+  color:#222222;
+  line-height: 1.4;
+  font-family: 'Open Sans', sans-serif;
+}
+h1{
+  font-family: 'Roboto', sans-serif; 
+  font-size: 2em;
+}
+section{
+  display: block;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+ul{
+  font-size: .875em;
+  margin-left: 2em;
+}
+li{
+  list-style: disc;
+}
+
+.page{
+  margin:0 auto;
+  padding:2em 0;
+  width: 100%;
+    max-width: 960px;
+}
+.graphic{
+  background-color: #222222;
+  color:#FFFFFF;
+  padding-top:2em;
+}
+.graphic section{
+  margin:0 auto;
+  width: 100%;
+    max-width: 960px;
+}
+
+.bar {
+  fill: steelblue;
+}
+.other .bar{
+  fill: #FFF974;
+}
+
+.other__wrapper{
+  background-color:#FFF974;
+}
+
+
+.chart text {
+  fill: white;
+  font: 10px sans-serif;
+  text-anchor: end;
+}
+.chart .other text{
+  fill: #222222;
+}
+
+.axis text {
+  font: 12px sans-serif;
+  fill: #FFFFFF;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #FFF;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {
+  display: none;
+}
+
+.banner{
+  background-color: #000000;
+  box-shadow: 0 0 7px black;
+  color:#FFFFFF;
+  font-family: 'Roboto', sans-serif;
+  padding: 1em;
+  position: fixed;
+  width: 100%;
+}
+
+.banner a{
+  color:steelblue;
+  text-decoration: none;
+}
+
+blockquote{
+  background: #e7e7e7;
+  border-left: 3px solid #D1CDCD;
+  display: inline-block;
+  font-size:.875em;
+  margin-bottom: .5em;
+  margin-right: 1%;
+  padding: 2em;
+  vertical-align: top;
+  width: 48%;
+}
+p{
+  margin-bottom:1em;
+}
