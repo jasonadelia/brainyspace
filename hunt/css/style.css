@@ -186,6 +186,9 @@ aside, .entry-form, .instructions, .complete{
 .instructions .dates{
 	font-weight: bold;
 }
+.instructions p{
+  font-size: .9em;
+}
 
 .instructions button{
 	background: none;
