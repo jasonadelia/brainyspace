@@ -128,6 +128,13 @@ ul{
 	margin: 0;
 	padding: 0;
 }
+
+main li{
+  background-color: rgba(0,0,0,.8);
+}
+main li button{
+  margin:0 auto;
+}
 img{
 	box-shadow: 0px 0 10px #000000;
 	display: block;
@@ -210,6 +217,7 @@ aside, .entry-form, .instructions, .complete{
 
 aside img{
 	display: none;
+  margin: 0 auto;
 }
 
 .show-form aside, .show-entry-form .entry-form, .show-complete .complete, .show-instructions .instructions {
