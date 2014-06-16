@@ -272,6 +272,7 @@ form, .guess{
 @media all and (min-height: 350px){
 	aside img{
 		display: block;
+    max-height: 65%;
 	}
 	form, .guess{
 		padding:1em 1em 5em 1em;
